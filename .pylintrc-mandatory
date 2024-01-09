@@ -2,7 +2,7 @@
 [MASTER]
 load-plugins=pylint_odoo
 score=y
-fail-under=9
+fail-under=9.5
 
 [ODOOLINT]
 readme_template_url="https://github.com/OCA/maintainer-tools/blob/master/template/module/README.rst"
@@ -30,7 +30,7 @@ enable=anomalous-backslash-in-string,
     duplicate-xml-record-id,
     eval-referenced,
     eval-used,
-    incoherent-interpreter-exec-perm,
+    # incoherent-interpreter-exec-perm,
     license-allowed,
     manifest-author-string,
     manifest-deprecated-key,
@@ -42,7 +42,7 @@ enable=anomalous-backslash-in-string,
     method-required-super,
     method-search,
     openerp-exception-warning,
-    pointless-statement,
+    # pointless-statement,
     pointless-string-statement,
     print-used,
     redundant-keyword-arg,
@@ -59,7 +59,7 @@ enable=anomalous-backslash-in-string,
     use-vim-comment,
     wrong-tabs-instead-of-spaces,
     xml-syntax-error,
-    attribute-string-redundant,
+    # attribute-string-redundant,
     character-not-valid-in-resource-link,
     consider-merging-classes-inherited,
     context-overridden,
